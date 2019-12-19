@@ -10,7 +10,7 @@
     "@changesets/cli": "^2.4.1"
   },
   "scripts": {
-    "commit": "changeset",
+    "commit": "git add . && yarn changeset",
     "release": "changeset publish && git push --follow-tags"
   }
 }
