@@ -3,5 +3,9 @@
   "version": "0.0.1",
   "main": "index.js",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/",
+    "access": "public"
+  }
 }
