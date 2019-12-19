@@ -1,0 +1,15 @@
+{
+  "name": "testing-changesets",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "@changesets/cli": "^2.4.1"
+  },
+  "scripts": {
+    "release": "changeset publish && git push --follow-tags"
+  }
+}
