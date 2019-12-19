@@ -23,7 +23,8 @@
     "husky": "^3.1.0"
   },
   "scripts": {
-    "changeset": "yarn changeset",
-    "release": "changeset publish && git push --follow-tags"
+    "changeset": "changeset",
+    "release": "changeset publish && git push --follow-tags",
+    "some-other-script": ""
   }
 }
