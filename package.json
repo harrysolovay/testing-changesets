@@ -5,12 +5,20 @@
   "workspaces": [
     "packages/*"
   ],
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
   "dependencies": {},
   "devDependencies": {
-    "@changesets/cli": "^2.4.1"
+    "@changesets/cli": "^2.4.1",
+    "@commitlint/cli": "^8.2.0",
+    "@commitlint/config-conventional": "^8.2.0",
+    "husky": "^3.1.0"
   },
   "scripts": {
-    "commit": "git add . && yarn changeset",
+    "changeset": "yarn changeset",
     "release": "changeset publish && git push --follow-tags"
   }
 }
