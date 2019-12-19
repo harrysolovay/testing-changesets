@@ -24,7 +24,6 @@
   },
   "scripts": {
     "changeset": "changeset",
-    "release": "changeset publish && git push --follow-tags",
-    "some-other-script": ""
+    "release": "changeset publish && git push --follow-tags"
   }
 }
