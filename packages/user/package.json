@@ -1,11 +1,11 @@
 {
   "name": "@neverusethis/user",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "index.js",
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "@neverusethis/a": "1.0.0",
-    "@neverusethis/b": "1.0.0"
+    "@neverusethis/a": "2.0.0",
+    "@neverusethis/b": "1.1.0"
   }
 }
